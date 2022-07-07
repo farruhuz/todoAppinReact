@@ -1,0 +1,34 @@
+ul{
+    list-style: none;
+    width: 100%;
+}
+ul > li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    border-radius: 0.6rem;
+    font-size: 2rem;
+    width: 100%;
+}
+ul > li {
+    border: 1px solid #fff;
+    margin-bottom: 2rem;
+}
+ul > li > div {
+    display: flex;
+    padding: 1rem 2rem;
+}
+ul > li > div:nth-child(1){
+    width: 90%;
+}
+
+ul > li > div:nth-child(2){
+    display: flex;
+    gap: 2rem;
+    width: 10%;
+    font-size: 2.3rem;
+}
+ul > li > div:nth-child(2) svg{
+    cursor: pointer; 
+}

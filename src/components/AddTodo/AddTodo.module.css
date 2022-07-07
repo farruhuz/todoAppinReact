@@ -1,0 +1,35 @@
+form{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+form > input {
+    padding: 2rem 2rem;
+    outline: none;
+    width: 80%;
+    border-radius: 6px;
+    border: none;
+    font-size: 2rem;
+}
+form > input::placeholder{
+    font-size: 2rem;
+}
+form > button {
+    padding: 10px 20px;
+    width: 20%;
+    font-weight: 600;
+    font-size: 2rem;
+    border-radius: 0.6rem;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(35, 206, 126);
+    color: #fff;
+    box-shadow: -1px -1px 10px rgb(0, 245, 131, 0.5);
+    transition: all 0.2s linear;
+}
+form > button:active{
+    box-shadow: none;
+    transition: all 0.2s linear;
+}

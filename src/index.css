@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #0c5e49;
+  /* background-color: #0fe4ae; */
+}
+.container{
+  max-width: 100rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem;
+}
+ 
