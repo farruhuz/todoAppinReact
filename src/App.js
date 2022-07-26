@@ -1,4 +1,3 @@
-import { ConstructionOutlined } from "@mui/icons-material";
 import { useEffect, useState } from "react";
 import "./App.css";
 import AddTodo from "./components/AddTodo/AddTodo";
